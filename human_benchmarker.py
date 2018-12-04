@@ -6,8 +6,8 @@ import numpy as np
 import cv2 as cv
 import math
 
-images = np.load('punctuation_images_test.npy')
-labels = np.load('punctuation_labels_test.npy')
+images = np.load('dataset\\punctuation\\all_images.npy')
+labels = np.load('dataset\\punctuation\\all_labels.npy')
 
 correct = 0
 total = 0
@@ -68,13 +68,12 @@ for i in range(0, np.size(images, axis=0)-1):
 
     if key == 13:
         break
-    print(chr(label))
-    """
+
     if label == key:
         correct += 1
     total += 1
 
     if total % 100 == 0:
         print(total)
-    """
+
 print(correct, total, correct/total)
