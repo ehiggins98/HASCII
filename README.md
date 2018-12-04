@@ -3,7 +3,7 @@ Welcome to the HASCII dataset (Handwritten ASCII), a dataset containing 450 hand
 
 Authors: Eric Higgins ([@ehiggins98](https://github.com/ehiggins98)) and Zak Kulphongpatana ([@zkulphong](https://github.com/zkulphong)).
 
-**NOTE**: The checkpoint files and some numpy image files are stored using Git LFS. To get these files after cloning, you'll need to 
+**WARNING**: The checkpoint files are quite large, so if you're only interested in the dataset it might be a better idea to download that directly to avoid cloning.
 
 ### Data Collection
 The alphanumeric characters in this dataset were sampled from the [EMNIST dataset](https://arxiv.org/abs/1702.05373) in equal numbers as the punctuation data.
